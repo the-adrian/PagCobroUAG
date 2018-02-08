@@ -11,7 +11,7 @@ class App extends Component {
       imgPago:{
         width: '10rem'
       },
-      imgMetodosPago:{
+      imgDivMetodosPago:{
         paddingRight: '0rem',
         paddingTop: '2rem'
       },
@@ -139,25 +139,25 @@ class App extends Component {
               in the US
             </p>
             <p>
-              <div style={styles.imgMetodosPago}>
+              <div style={styles.imgDivMetodosPago}>
                 <img
                   style={styles.imgPago}
                   src={imgPayPal}
-                  alt="Product Image"
+                  alt="PayPal"
                 />
               </div>
-              <div style={styles.imgMetodosPago}>
+              <div style={styles.imgDivMetodosPago}>
                 <img
                   style={styles.imgPago}
                   src={imgOxxoPay}
-                  alt="Product Image"
+                  alt="Oxxo Pay"
                 />
               </div>
-              <div style={styles.imgMetodosPago}>
+              <div style={styles.imgDivMetodosPago}>
                 <img
                   style={styles.imgPago}
                   src={imgCard}
-                  alt="Product Image"
+                  alt="Tarjetas de crédito y débito"
                 />
               </div>
             </p>
